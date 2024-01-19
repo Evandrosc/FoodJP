@@ -104,11 +104,11 @@ export function Main() {
         <h2 className="mb-28 text-center text-clamp1 font-semibold text-dark900 sm:mb-24 sm:mt-24">
           Mais populares
         </h2>
-        <div className="flex flex-col gap-24 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-11">
+        <div className="grid gap-24 sm:grid-cols-2 sm:gap-11 lg:grid-cols-3">
           {populares.map((popular) => (
             <div
               key={popular.id}
-              className="flex w-full flex-col items-center gap-4 rounded-lg bg-dark500 px-8 pb-12 sm:w-[46.28%] sm:last:mt-11 lg:w-[30.32%] lg:px-4 lg:last:mt-0"
+              className="flex flex-col items-center gap-4 rounded-lg bg-dark500 px-8 pb-12 sm:last:mt-11 lg:px-4 lg:last:mt-0"
             >
               <img
                 src={popular.img}
@@ -131,7 +131,7 @@ export function Main() {
         <h2 className="mb-10 mt-14 text-center text-clamp1 font-semibold text-dark900 sm:text-left">
           Comentários
         </h2>
-        <div className="flex flex-col gap-7 sm:flex-row sm:gap-5">
+        <div className="grid gap-7 sm:grid-cols-2 sm:gap-5">
           {comentarios.map((comentario) => (
             <div
               key={comentario.id}
