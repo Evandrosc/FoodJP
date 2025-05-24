@@ -24,19 +24,19 @@ export function Menubar({ active, onActive }: MenubarProps) {
         <div className="flex flex-col gap-10 text-xl text-dark400 sm:flex-row sm:text-dark900 md:gap-20">
           <a
             href="#"
-            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear hover:text-brand sm:border-none"
+            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear sm:border-none"
           >
             Inicio
           </a>
           <a
             href="#"
-            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear hover:text-brand sm:border-none"
+            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear sm:border-none"
           >
             Cardápio
           </a>
           <a
             href="#"
-            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear hover:text-brand sm:border-none"
+            className="border-b border-solid border-dark400 font-medium transition-all duration-100 ease-linear sm:border-none"
           >
             Sobre
           </a>
